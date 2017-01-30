@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.toxoidandroid.rubric.MainActivity">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/popular"
+            android:title="Popular"
+            android:orderInCategory="1"
+            />
+        <item
+            android:id="@+id/top_rated"
+            android:title="Top Rated"
+            android:orderInCategory="2"/>
+    </group>
+</menu>
