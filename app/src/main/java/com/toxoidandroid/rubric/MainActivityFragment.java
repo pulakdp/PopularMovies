@@ -58,7 +58,7 @@ public class MainActivityFragment extends Fragment {
                 }
             });
         } else {
-            Toast.makeText(getContext(), "Make sure you have an active internet connection", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getContext(), "Make sure you have an active internet connection. Close and Reopen the app once again", Toast.LENGTH_SHORT).show();
         }
         return rootView;
     }
