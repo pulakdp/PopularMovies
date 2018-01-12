@@ -6,7 +6,7 @@ import android.net.ConnectivityManager;
 
 public class Constants {
 
-    public static final String API_KEY = "tba";
+    public static final String API_KEY = "tba"; //TODO: Add API KEY
     public static final String BASE_JSON_URL_POPULAR = "http://api.themoviedb.org/3/movie/popular?api_key=";
     public static final String BASE_JSON_URL_TOP_RATED = "http://api.themoviedb.org/3/movie/top_rated?api_key=";
     public static final String BASE_IMAGE_URL = "http://image.tmdb.org/t/p/";
@@ -15,7 +15,7 @@ public class Constants {
     public static final String JSON_URL_TOP_RATED = BASE_JSON_URL_TOP_RATED + API_KEY;
     public static final String IMAGE_URL = BASE_IMAGE_URL + IMAGE_QUALITY;
 
-    public static final String YOUTUBE_API_KEY = "tba";
+    public static final String YOUTUBE_API_KEY = "tba"; //TODO: Add API KEY
     public static final String VIDEO_URL_1 = "http://api.themoviedb.org/3/movie/";
     public static final String VIDEO_URL_2 = "/videos?api_key=" + API_KEY;
 

@@ -21,7 +21,7 @@ public class DownloadJsonData extends AsyncTask<String, Void, String> {
     private static final String LOG_TAG = DownloadJsonData.class.getSimpleName();
     private List<Movie> mMovies;
 
-    DownloadJsonData(){
+    DownloadJsonData() {
         mMovies = new ArrayList<>();
     }
 
